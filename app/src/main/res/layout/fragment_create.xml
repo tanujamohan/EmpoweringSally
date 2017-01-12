@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="itp341.mohan.tanuja.empoweringsally.CreateFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Title:"
+        android:id="@+id/title_prompt"
+        android:textColor="#000000"
+        android:textSize="8pt"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_alignBaseline="@+id/title_prompt"
+        android:layout_marginLeft="8dp"
+        android:layout_toEndOf="@+id/title_prompt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date:"
+        android:textColor="#000000"
+        android:textSize="8pt"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/date_prompt"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_text"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/editText"
+        android:layout_toEndOf="@+id/description_prompt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location:"
+        android:textColor="#000000"
+        android:textSize="8pt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/location_prompt"
+        android:layout_below="@+id/date_prompt"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/location_text"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/date_prompt"
+        android:layout_toEndOf="@+id/description_prompt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description:"
+        android:textColor="#000000"
+        android:textSize="8pt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/description_prompt"
+        android:layout_below="@+id/location_prompt"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/description_text"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/location_prompt"
+        android:layout_toEndOf="@+id/description_prompt" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:id="@+id/save_button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="180dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/city_img"
+        android:layout_above="@+id/save_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp" />
+</RelativeLayout>

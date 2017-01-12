@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "835362845555",
+    "firebase_url": "https://empoweringsally.firebaseio.com",
+    "project_id": "empoweringsally",
+    "storage_bucket": "empoweringsally.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835362845555:android:5e2b8966d25647bd",
+        "android_client_info": {
+          "package_name": "itp341.mohan.tanuja.empoweringsally"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835362845555-p0a3tph7vdgmi74kll9fg25848rqtnlb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [{"current_key": ""}],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

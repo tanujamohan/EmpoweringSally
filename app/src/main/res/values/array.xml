@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories_array">
+        <item>Internships</item>
+        <item>Summer Programs</item>
+        <item>Conferences</item>
+        <item>Volunteering</item>
+        <item>Social Events</item>
+        <item>Resources</item>
+    </string-array>
+</resources>
